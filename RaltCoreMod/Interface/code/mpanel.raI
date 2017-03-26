@@ -1,0 +1,17 @@
+#include "holy.raI"
+
+block mpanel0
+{
+	size: 50x50;
+	topX: 200;
+	topY: 300;
+	
+	bck_r: 0;						// Компонент красного
+	bck_g: 0;						// Компонент зеленого
+	bck_b: 255;						// Компонент голубого
+	
+	bcg::onclick:
+	{
+		img_alias: 0;
+	}
+}

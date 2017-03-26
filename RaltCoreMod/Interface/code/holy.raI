@@ -1,0 +1,19 @@
+#include "main.raI"
+
+block mpanel2
+{
+	size: 50x50;
+	topX: 270;
+	topY: 300;
+	
+	cmove: 1;
+	
+	bck_r: 0;						// Компонент красного
+	bck_g: 0;						// Компонент зеленого
+	bck_b: 255;						// Компонент голубого
+	
+	bck::onclick:
+	{
+		img_alias: 0;
+	}
+}
